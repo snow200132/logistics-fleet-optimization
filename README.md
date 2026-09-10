@@ -1,7 +1,7 @@
 # Logistics OTD & Fleet Cost Optimization
 
 **Executive Summary**
-Analyzed operational logistics trip logs across 337 fleet units (Flatbed and Bulk divisions) to evaluate fleet velocity, transit-in/transit-out (TI/TO) lead times, On-Time Delivery (OTD), and unit freight rates.
+Analyzed operational logistics trip logs across 337 fleet units (Flatbed and Bulk divisions) evaluating fleet velocity, transit lead times (TI/TO), On-Time Delivery (OTD), and unit freight rates.
 
 ---
 
@@ -9,6 +9,13 @@ Analyzed operational logistics trip logs across 337 fleet units (Flatbed and Bul
 * **Challenge:** Extended transit-out durations exceeded target SLAs, causing driver idle times and increasing freight cost per ton.
 * **Objective:** Identify operational bottlenecks across transit corridors, track Check-In/Check-Out (CICO) turnaround times, and optimize fleet allocation to achieve 100% OTD compliance.
 * **Target Audience:** Head of Logistics, Operations Director, Fleet Managers.
+
+---
+
+### Data Architecture & Repository Files
+* **`data/fleet_trip_logs.csv`**: Operational dataset schema and dispatch logs covering 10,000+ trip records across 337 active fleet units.
+* **`scripts/01_fleet_performance_analysis.sql`**: Production PostgreSQL queries executing window functions (`LAG`), CTEs, and weekly delta calculations.
+* **`visualisations/`**: Exported dashboard views and KPI tracking charts.
 
 ---
 
