@@ -1,7 +1,7 @@
 # Logistics OTD & Fleet Cost Optimization
 
 **Executive Summary**
-Analyzed operational logistics trip logs across 337 fleet units (Flatbed and Bulk divisions) evaluating fleet velocity, transit lead times (TI/TO), On-Time Delivery (OTD), and unit freight rates.
+Analyzed **100,000+ operational logistics logs** filtered across **337 active fleet units** (Flatbed and Bulk divisions) to evaluate transit velocity, CICO dock delays, and freight costs.
 
 ---
 
