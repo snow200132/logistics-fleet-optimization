@@ -1,0 +1,9 @@
+trip_id,truck_type,dispatch_week,transit_in_hrs,transit_out_hrs,cico_hrs,freight_cost_per_ton_ngn,otd_status,ring_zone
+TRK-1001,Flatbed,Week 30,11.5,53.8,4.2,10246,Delayed,Ring 1
+TRK-1002,Flatbed,Week 30,10.8,51.2,3.8,10100,Delayed,Ring 1
+TRK-1003,Bulk,Week 30,12.1,55.4,8.5,10500,Delayed,Ring 2
+TRK-1004,Flatbed,Week 31,4.5,33.7,1.8,8543,On-Time,Ring 1
+TRK-1005,Flatbed,Week 31,4.2,32.1,1.5,8450,On-Time,Ring 1
+TRK-1006,Bulk,Week 31,5.0,34.8,6.2,8900,On-Time,Ring 1
+TRK-1007,Flatbed,Week 31,4.1,31.9,1.2,8500,On-Time,Ring 1
+TRK-1008,Bulk,Week 31,4.8,35.1,7.1,8950,On-Time,Ring 2
